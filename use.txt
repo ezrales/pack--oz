@@ -1,0 +1,18 @@
+        ---------------------------------------------------------------------------- 
+       | Pleas use [ cp {folder OsEzNe} to opt ] and [ cp {file osne} to /usr/bin ] |
+        ---------------------------------------------------------------------------- 
+                                 
+     >>> sudo cp -rf OsEzNe /opt 
+        ------------------------ 
+     >>> sudo cp osen /usr/bin   
+              
+              
+     Help ::> 
+              
+         0).  (or) exit    >> {Exit} 
+                                 
+       cle).  (to) clear   >> {clear}
+                                 
+      back).  (to) back   >> {back} 
+                                 
+
