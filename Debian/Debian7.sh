@@ -45,7 +45,6 @@ do
     echo " Insert the number of the tool to install it "
     echo "                                             "
     read -p "  Enter Your number to install Tools of [1 - 16] # ~> " OIM
-    #read -p " Enter Your number to Install # ~> " OIM
     echo "                                                     "
     echo "                                                     " 
 
@@ -76,45 +75,46 @@ do
     clear
     ;;
     4)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D4.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D4.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D4.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D4.sh
 	;;
 	5)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D5.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D5.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D5.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D5.sh
 	;;
 	6)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D6.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D6.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D6.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D6.sh
 	;;
 	7)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D7.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D7.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D7.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D7.sh
 	;;
 	8)
-    /opt/OsEzNe/Debian/Kali_D/./kali_D8.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D8.sh
+    /opt/pack-oz/Debian/Kali_D/./kali_D8.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D8.sh
 	;;
 	9)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D9.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D9.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D9.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D9.sh
 	;;
 	10)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D10.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D10.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D10.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D10.sh
 	;;
 	11)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D11.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D11.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D11.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D11.sh
 	;;
 	12)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D12.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D12.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D12.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D12.sh
 	;;
 	13)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D13.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D13.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D13.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D13.sh
 	;;
 	14)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D14.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D14.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D14.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D14.sh
 	;;
 	15)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D15.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D15.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D15.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D15.sh
 	;;
 	16)
-	/opt/OsEzNe/Debian/Kali_D/./kali_D16.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/Kali_D16.sh
+	/opt/pack-oz/Debian/Kali_D/./kali_D16.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/Kali_D16.sh
 	;;
     *)
+	echo " whate is >>> \"${OIM}\" "
 	read -s -p " [!] Pleas [Enter] number good .... "
     clear
     ;;

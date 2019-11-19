@@ -118,6 +118,7 @@ do
     read -s -p " press [Enter] key to continua.... "
     ;;
     *)
+    echo " whate is >>> \"${Repo}\" "
     read -s -p " [!] Pleas [Enter] number good .... "
     clear
     ;;

@@ -274,7 +274,8 @@ do
     read -s -p " press [Enter] key to continua.... "
     ;;
     *)
-	read -s -p " [!] Pleas [Enter] number good .... "
+	echo " whate is >>> \"${WWWr1}\" "
+    read -s -p " [!] Pleas [Enter] number good .... "
     clear
     ;;
     esac

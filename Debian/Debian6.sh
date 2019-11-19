@@ -65,11 +65,11 @@ echo " &========================================================================
     echo " &=====================================================================&"
     echo "                                                                  "
     echo "                                                                  "
-    read -p "  Enter Your number to install Tool $ ~> " Sys
+    read -p "  Enter Your number to install Tool $ ~> " Sys1
     echo "                                              "
     echo "                                              "
     
-    case $Sys in
+    case $Sys1 in
     exit | back)
     echo "                                            * Bye!"
     echo "                                                                                       "
@@ -251,6 +251,7 @@ echo " &========================================================================
     read -s -p " press [Enter] key to continua.... "
     ;;
     *)
+    echo " whate is >>> \"${Sys1}\" "
     read -s -p " [!] Pleas [Enter] number good .... "
     clear
     ;;

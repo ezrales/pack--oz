@@ -41,10 +41,10 @@
 	read -p "  ## Enter your name hostaname systeme # ~> " amr
     case $amr in
 	apt | Ubuntu | ubuntu | kali | Kali | debian | apt-get| Apt | a | d) 
-    /opt/OsEzNe/Debian/./Debian.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/./Debian.sh #|| /*/*/*/*/./debian.sh
+    /opt/*/Debian/./Debian.sh #/home//Desktop/OsEzNe/Action0/Debian/./Debian.sh #|| /*/*/*/*/./debian.sh
     ;;
     Fedora | fedora | rpm | dnf | yum | redhat | Redhat | Yum | y | f)
-	/opt/OsEzNe/Redhat/./Redhat.sh #/home/ezrales/Desktop/OsEzNe/Action0/Redhat/./Redhat.sh #/home/*/*/*/*/*/./Redhat.sh #|| /*/*/*/*/./Redhat.sh
+	/opt/*/Redhat/./Redhat.sh #/home//Desktop/OsEzNe/Action0/Redhat/./Redhat.sh #/home/*/*/*/*/*/./Redhat.sh #|| /*/*/*/*/./Redhat.sh
 	;;
 	exit)
 	echo "                                               "

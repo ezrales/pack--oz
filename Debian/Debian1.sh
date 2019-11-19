@@ -423,6 +423,7 @@ do
     read -s -p "press [Enter] key to continua ... "
     ;;
     *)
+    echo " whate is >>> \"${Graphics1}\" "
     read -s -p " [!] Pleas [Enter] number good .... "
     clear
     ;;

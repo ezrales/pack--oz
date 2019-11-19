@@ -74,45 +74,46 @@ do
     clear
     ;;
     4)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R4.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R4.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R4.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R4.sh
 	;;
 	5)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R5.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R5.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R5.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R5.sh
 	;;
 	6)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R6.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R6.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R6.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R6.sh
 	;;
 	7)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R7.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R7.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R7.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R7.sh
 	;;
 	8)
-    /opt/OsEzNe/Redhat/Kali_R/./kali_R8.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R8.sh
+    /opt/pack-oz/Redhat/Kali_R/./kali_R8.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R8.sh
 	;;
 	9)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R9.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R9.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R9.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R9.sh
 	;;
 	10)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R10.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R10.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R10.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R10.sh
 	;;
 	11)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R11.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R11.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R11.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R11.sh
 	;;
 	12)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R12.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R12.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R12.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R12.sh
 	;;
 	13)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R13.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R13.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R13.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R13.sh
 	;;
 	14)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R14.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R14.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R14.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R14.sh
 	;;
 	15)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R15.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R15.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R15.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R15.sh
 	;;
 	16)
-	/opt/OsEzNe/Redhat/Kali_R/./kali_R16.sh #/home/ezrales/Desktop/OsEzNe/Action0/Debian/kali_R16.sh
+	/opt/pack-oz/Redhat/Kali_R/./kali_R16.sh #/home/ezrales/Desktop/pack-oz/Action0/Debian/kali_R16.sh
 	;;
     *)
+	echo " whate is >>> \"${OIM1}\" "
 	read -s -p " [!] Pleas [Enter] number good .... "
     clear
     ;;

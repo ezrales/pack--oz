@@ -37,8 +37,9 @@ do
 	echo "                                       "
 	
 	#read -p PS1="\[\033[0;31m\]<\u@\h \W>\$ "
+    #read -p " PS1=\[\033[1;31m\] < \A > [\u@\h \w] \$\ [\033[0m\]" CPP
     read -p  "  Enter Your number of [1 - 4] # ~> " CPP
-    #read -p " PS2="\[\033[1;33m\] < \A > [\u@\h \w] \$ \[\033[0m\]" "   
+    #read -p "export PS1='\[\033[1;33m\] < \A > [\u@\h \w] \$ \[\033[0m\]'" CPP   
    #============================================== START ================================================#
     echo "                                       "
     case $CPP in
@@ -58,10 +59,10 @@ do
     ;;
     4)
     echo "    ---------------------------------------------------------------------------- "
-    echo "   | Pleas use [ cp {folder OsEzNe} to opt ] and [ cp {file osne} to /usr/bin ] |"
+    echo "   | Pleas use [ cp {folder pack-oz} to opt ] and [ cp {file osne} to /usr/bin ] |"
     echo "    ---------------------------------------------------------------------------- "
     echo "                             "
-    echo " >>> sudo cp -rf OsEzNe /opt "
+    echo " >>> sudo cp -rf pack-oz /opt "
     echo "    ------------------------ "
     echo " >>> sudo cp osen /usr/bin   "
     echo "          "
@@ -110,43 +111,43 @@ do
     #==============================START UUU============================#
     case $UUU in
     1)
-    /opt/OsEzNe/Redhat/./Redhat1.sh #/home/*/*/*/*/./Redhat1.sh
+    /opt/pack-oz/Redhat/./Redhat1.sh #/home/*/*/*/*/./Redhat1.sh
     ;;
     esac
 
     case $UUU in
     2)
-    /opt/OsEzNe/Redhat/./Redhat2.sh #/home/*/*/*/*/./Redhat2.sh
+    /opt/pack-oz/Redhat/./Redhat2.sh #/home/*/*/*/*/./Redhat2.sh
     ;;
     esac
 
     case $UUU in
     3)
-    /opt/OsEzNe/Redhat/./Redhat3.sh #/home/*/*/*/*/./Redhat3.sh
+    /opt/pack-oz/Redhat/./Redhat3.sh #/home/*/*/*/*/./Redhat3.sh
     ;;
     esac
 
     case $UUU in
     4)
-    /opt/OsEzNe/Redhat/./Redhat4.sh #/home/*/*/*/*/./Redhat4.sh
+    /opt/pack-oz/Redhat/./Redhat4.sh #/home/*/*/*/*/./Redhat4.sh
     ;;
     esac
     
     case $UUU in
     5)
-    /opt/OsEzNe/Redhat/./Redhat5.sh #/home/*/*/*/*/./Redhat5.sh
+    /opt/pack-oz/Redhat/./Redhat5.sh #/home/*/*/*/*/./Redhat5.sh
     ;;
     esac
     
     case $UUU in
     6)
-    /opt/OsEzNe/Redhat/./Redhat6.sh #/home/*/*/*/*/./Redhat6.sh
+    /opt/pack-oz/Redhat/./Redhat6.sh #/home/*/*/*/*/./Redhat6.sh
     ;;
     esac
 
     case $UUU in
     7)
-    /opt/OsEzNe/Redhat/./Redhat7.sh #/home/*/*/*/*/./Redhat7.sh
+    /opt/pack-oz/Redhat/./Redhat7.sh #/home/*/*/*/*/./Redhat7.sh
     ;;
     esac
 
@@ -158,6 +159,7 @@ do
     cle | clear)
     clear
     ;;
+    #echo " whate is >>> \"${Graphics}\" "
     #*)
     #read -s -p " [!] Pleas [Enter] number good .... "
     #;;

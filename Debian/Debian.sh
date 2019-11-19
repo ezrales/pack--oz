@@ -64,8 +64,17 @@ do
     sudo apt-get install git && echo "     " && read -s -p  " Finish Installed Git ...." && echo " " && echo " -------- finish ------------ " && echo " " || read -s -p " not Finish Installed Git ... " && echo " " && echo " -------- finish ------------ " &&  echo " "
     sudo apt-get install wget && echo "     " && read -s -p  " Finish Installed wget ...." && echo " " && echo " -------- finish ------------ " && echo " " || read -s -p " not Finish Installed wget ... " && echo " " && echo " -------- finish ------------ " &&  echo " "    
     ;;
-    4)
-    [ -N /etc/apt/sources.list ]  && echo "osama mohammed alzabidi" >> /etc/apt/sources.list || echo " finish created "
+    4k)
+    [ -N /etc/apt/sources.list ]  && echo "" >> /etc/apt/sources.list || echo " finish created "
+    read -s -p " press [Enter] key to continua...."
+    ;;
+    4d)
+    [ -N /etc/apt/sources.list ]  && echo "" >> /etc/apt/sources.list || echo " finish created "
+    read -s -p " press [Enter] key to continua...."
+    ;;
+    4u)
+    [ -N /etc/apt/sources.list ]  && echo "" >> /etc/apt/sources.list || echo " finish created "
+    read -s -p " press [Enter] key to continua...."
     ;;
     6)
 	echo "
@@ -73,7 +82,17 @@ do
 	---------------------------------
 	use exit to exit from programing 0
 	---------------------------------- " 
-	read -s -p " press [Enter] key to continua...."
+	echo "
+    use >>
+    
+     4k) of add source to source.list on System Kali Linux
+     
+     4d) of add source to source.list on System Debian
+     
+     4u) of add source to source.list on System Ubuntu
+     "
+     echo "                                       "
+    read -s -p " press [Enter] key to continua...."
     ;;
    #====================================== END ======================================================# 
     2)
@@ -113,43 +132,43 @@ do
     #==============================START YYY============================#
     case $YYY in
     1)
-    /opt/OsEzNe/Debian/./Debian1.sh #/home/*/*/*/*/./Debian1.sh
+    /opt/pack-oz/Debian/./Debian1.sh #/home/*/*/*/*/./Debian1.sh
     ;;
     esac
 
     case $YYY in
     2)
-    /opt/OsEzNe/Debian/./Debian2.sh #/home/*/*/*/*/./Debian2.sh
+    /opt/pack-oz/Debian/./Debian2.sh #/home/*/*/*/*/./Debian2.sh
     ;;
     esac
 
     case $YYY in
     3)
-    /opt/OsEzNe/Debian/./Debian3.sh #/home/*/*/*/*/./Debian3.sh
+    /opt/pack-oz/Debian/./Debian3.sh #/home/*/*/*/*/./Debian3.sh
     ;;
     esac
 
     case $YYY in
     4)
-    /opt/OsEzNe/Debian/./Debian4.sh #/home/*/*/*/*/./Debian4.sh
+    /opt/pack-oz/Debian/./Debian4.sh #/home/*/*/*/*/./Debian4.sh
     ;;
     esac
     
     case $YYY in
     5)
-    /opt/OsEzNe/Debian/./Debian5.sh #/home/*/*/*/*/./Debian5.sh
+    /opt/pack-oz/Debian/./Debian5.sh #/home/*/*/*/*/./Debian5.sh
     ;;
     esac
     
     case $YYY in
     6)
-    /opt/OsEzNe/Debian/./Debian6.sh #/home/*/*/*/*/./Debian6.sh
+    /opt/pack-oz/Debian/./Debian6.sh #/home/*/*/*/*/./Debian6.sh
     ;;
     esac
     
     case $YYY in
     7)
-    /opt/OsEzNe/Debian/./Debian7.sh #/home/*/*/*/*/./Debian7.sh
+    /opt/pack-oz/Debian/./Debian7.sh #/home/*/*/*/*/./Debian7.sh
     ;;
     esac
 

@@ -162,6 +162,7 @@ do
     read -s -p " press [Enter] key to continua.... "
     ;;
     *)
+    echo " whate is >>> \"${MaiN1}\" "
     read -s -p " [!] Pleas [Enter] number good .... "
     clear
     ;;

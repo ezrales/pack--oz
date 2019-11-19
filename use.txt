@@ -1,10 +1,10 @@
-        ---------------------------------------------------------------------------- 
-       | Pleas use [ cp {folder OsEzNe} to opt ] and [ cp {file osne} to /usr/bin ] |
-        ---------------------------------------------------------------------------- 
+        ---------------------------------------------------------------------------------- 
+       | Pleas use [ cp {folder pack-oz} to opt ] and [ cp {file packoz.sh} to /usr/bin ] |
+        ----------------------------------------------------------------------------------
                                  
-     >>> sudo cp -rf OsEzNe /opt 
+     >>> sudo cp -rf pack-oz /opt 
         ------------------------ 
-     >>> sudo cp osen /usr/bin   
+     >>> sudo cp packoz.sh /usr/bin/packoz  
               
               
      Help ::> 
@@ -14,5 +14,11 @@
        cle).  (to) clear   >> {clear}
                                  
       back).  (to) back   >> {back} 
-                                 
 
+      use >>
+    
+     4k) of add source to source.list on System Kali Linux
+     
+     4d) of add source to source.list on System Debian
+     
+     4u) of add source to source.list on System Ubuntu
