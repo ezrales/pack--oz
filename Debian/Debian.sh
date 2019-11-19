@@ -64,33 +64,44 @@ do
     sudo apt-get install git && echo "     " && read -s -p  " Finish Installed Git ...." && echo " " && echo " -------- finish ------------ " && echo " " || read -s -p " not Finish Installed Git ... " && echo " " && echo " -------- finish ------------ " &&  echo " "
     sudo apt-get install wget && echo "     " && read -s -p  " Finish Installed wget ...." && echo " " && echo " -------- finish ------------ " && echo " " || read -s -p " not Finish Installed wget ... " && echo " " && echo " -------- finish ------------ " &&  echo " "    
     ;;
-    4k)
-    [ -N /etc/apt/sources.list ]  && echo "" >> /etc/apt/sources.list || echo " finish created "
+    5)
+    echo "
+    Help ::> 
+              
+         0).  (or) exit    >> {Exit} 
+                                 
+       cle).  (to) clear   >> {clear}
+                                 
+      back).  (to) back   >> {back} 
+    "
     read -s -p " press [Enter] key to continua...."
     ;;
-    4d)
-    [ -N /etc/apt/sources.list ]  && echo "" >> /etc/apt/sources.list || echo " finish created "
-    read -s -p " press [Enter] key to continua...."
-    ;;
-    4u)
-    [ -N /etc/apt/sources.list ]  && echo "" >> /etc/apt/sources.list || echo " finish created "
-    read -s -p " press [Enter] key to continua...."
-    ;;
+    #4k)
+    #[ -N /etc/apt/sources.list ]  && echo "" >> /etc/apt/sources.list || echo " finish created "
+    #read -s -p " press [Enter] key to continua...."
+    #;;
+    #4d)
+    #[ -N /etc/apt/sources.list ]  && echo "" >> /etc/apt/sources.list || echo " finish created "
+    #read -s -p " press [Enter] key to continua...."
+    #;;
+    #4u)
+    #[ -N /etc/apt/sources.list ]  && echo "" >> /etc/apt/sources.list || echo " finish created "
+    #read -s -p " press [Enter] key to continua...."
+    #;;
     6)
 	echo "
-	Pleas use number \"1\" one
 	---------------------------------
-	use exit to exit from programing 0
+	use exit for exit from programing 0
 	---------------------------------- " 
-	echo "
-    use >>
-    
-     4k) of add source to source.list on System Kali Linux
-     
-     4d) of add source to source.list on System Debian
-     
-     4u) of add source to source.list on System Ubuntu
-     "
+	#echo "
+    #use >>
+   # 
+   #  4k) of add source to source.list on System Kali Linux
+   #  
+   #  4d) of add source to source.list on System Debian
+   #  
+   #  4u) of add source to source.list on System Ubuntu
+   #  "
      echo "                                       "
     read -s -p " press [Enter] key to continua...."
     ;;

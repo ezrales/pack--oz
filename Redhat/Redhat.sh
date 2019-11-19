@@ -35,11 +35,7 @@ do
                     0).  | Exit"
 	
 	echo "                                       "
-	
-	#read -p PS1="\[\033[0;31m\]<\u@\h \W>\$ "
-    #echo -n "`PS1="\[\033[1;31m\] < \A > [\u@\h \w] \$\ [\033[0m\]"`" CPP
-    read -p  "  Enter Your number of [1 - 4] # ~> " CPP
-    #read -p "export PS1='\[\033[1;33m\] < \A > [\u@\h \w] \$ \[\033[0m\]'" CPP   
+    read -p  "  Enter Your number of [1 - 4] # ~> " CPP   
    #============================================== START ================================================#
     echo "                                       "
     case $CPP in
@@ -71,9 +67,9 @@ do
     echo "          "
     echo "     0).  (or) exit    >> {Exit} "
     echo "                             "
-    echo "   cle).  (to) clear   >> {clear}"
+    echo "   cle).  (for) clear   >> {clear}"
     echo "                             "
-    echo "  back).  (to) back   >> {back} "
+    echo "  back).  (for) back   >> {back} "
     echo "                             "
     read -s -p " press [Enter] key to continua.... "
     ;;

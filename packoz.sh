@@ -41,7 +41,7 @@
 	read -p "  ## Enter your name hostaname systeme # ~> " amr
     case $amr in
 	apt | Ubuntu | ubuntu | kali | Kali | debian | apt-get| Apt | a | d) 
-    /opt/*/Debian/./Debian.sh #/home//Desktop/OsEzNe/Action0/Debian/./Debian.sh #|| /*/*/*/*/./debian.sh
+    /opt/*/Debian/./Debian.sh #/home//Desktop/OsEzNe/Action0/Debian/./Debian.sh #|| /*/*/*/*/./debian.sh /*/*/*/*/./Debian.sh
     ;;
     Fedora | fedora | rpm | dnf | yum | redhat | Redhat | Yum | y | f)
 	/opt/*/Redhat/./Redhat.sh #/home//Desktop/OsEzNe/Action0/Redhat/./Redhat.sh #/home/*/*/*/*/*/./Redhat.sh #|| /*/*/*/*/./Redhat.sh
@@ -62,48 +62,3 @@
 	echo "                                      "
 	esac
 	done
-	#echo "  &--------------------------------& "
-	#echo "   finish created file to .bashrc ..."
-	#echo "  &--------------------------------& "
-	#echo "                                     "
-	#echo "                                     "
-	#echo "                                     "
-	#echo "          1.   | applications"
-	#echo "          2.   | applications Graphices"
-	#echo "          3.   | applications Ethical Hacking"
-	#echo "          4.   | All applications"
-	#echo "          0.   | Exit"
-	#echo "                                       "
-	#echo "                                       "
-	
-	#read -p "Enter Your number of [1 - 4]# :> " osama
-   
-    #case $osama in
-    #0)
-	#echo "                                           *** Bye! ***"
-	#echo "                                                                                       "
-	#echo "                 *******************************************************************   "
-	#echo "                  *            My name is Osama Mohammed alzabidi                 *    "
-	#echo "                 ******************************************************************* 	 "
-	#exit 0
-    #;;
-    
-    #4)
-	
-	#read -p "press [Enter] key to continuo...."
-	#readEnterKey
-	#;;
-    
-    #1) 
-    #echo "                         "
-    #echo "                         "
- 	#echo " applications Graphices >"
-    #echo "================================================================================="
-    #echo "        |                                            |           |"        
-    #echo "     1. |   krita                                    | 250 MB    |"  
-	#echo "     2. |   sublime-text                             | 300 MB    |"
-	#echo "     3. |   pycharm                                  | 300 MB    |"
-	#echo "     4. |   All applications                         | ? MB      |"
-	#echo "     0. |   Exit                                     | Exit      |"
-    #echo "================================================================================="
-    #echo "                                  "
