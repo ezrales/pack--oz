@@ -37,7 +37,7 @@ do
 	
 	echo "                                       "
 	
-	read -p "  Enter Your number of [1 - 4] # ~> " MMMO
+	read -p "  Enter Your number of [1 - 5] # ~> " MMMO
    #============================================== START ================================================#
     echo "                                       "
     case $MMMO in
