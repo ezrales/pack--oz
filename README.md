@@ -18,12 +18,12 @@ Installation :
 su
 git clone https://github.com/ezrales/pack--oz.git
      
-     >>> sudo cp -rf pack-oz /opt 
+     >>> sudo cp -rf pack--oz /opt 
         ------------------------ 
-     >>> sudo cp packoz.sh /usr/bin/packoz
+     >>> sudo cp pack.sh /usr/bin/pack
 
-     chmod +x /usr/bin/packoz
-     sudo packoz
+     chmod +x /usr/bin/pack
+     sudo pack
  
 Usage :
 
