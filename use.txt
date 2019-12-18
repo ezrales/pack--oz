@@ -4,7 +4,7 @@
                                  
      >>> sudo cp -rf pack--oz /opt 
         ------------------------ 
-     >>> sudo cp packoz.sh /usr/bin/packoz  
+     >>> sudo cp pack.sh /usr/bin/pack  
               
               
      Help ::> 
@@ -14,11 +14,3 @@
        cle).  (to) clear   >> {clear}
                                  
       back).  (to) back   >> {back} 
-
-      use >>
-    
-     4k) of add source to source.list on System Kali Linux
-     
-     4d) of add source to source.list on System Debian
-     
-     4u) of add source to source.list on System Ubuntu
