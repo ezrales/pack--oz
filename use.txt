@@ -2,7 +2,7 @@
        | Pleas use [ cp {folder pack-oz} to opt ] and [ cp {file packoz.sh} to /usr/bin ] |
         ----------------------------------------------------------------------------------
                                  
-     >>> sudo cp -rf pack-oz /opt 
+     >>> sudo cp -rf pack--oz /opt 
         ------------------------ 
      >>> sudo cp packoz.sh /usr/bin/packoz  
               
